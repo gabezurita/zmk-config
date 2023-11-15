@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
@@ -39,8 +39,8 @@ layers:
   - {t: Fn, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '$$mdi:keyboard-space$$', h: '1'}
+  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   L2:
@@ -55,7 +55,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:close-box$$
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -66,15 +66,15 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:close-box$$', h: Fn}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - $$mdi:progress-download$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:star-three-points$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -93,12 +93,12 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - F6
   - F7
@@ -109,8 +109,8 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
-  - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:close-box$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:close-box$$', h: Fn}
   - {t: F11, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F12, h: '$$mdi:star-three-points$$'}
